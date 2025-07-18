@@ -298,11 +298,11 @@ video{
     background-color: #145A9F;
     color: white;
 }
-.button #back{
+/* .button #back{
   position: absolute;
   top:215%;
   right:52%;
-}
+} */
 button:hover{
   border-image:linear-gradient(to right ,#0066ff,#ff32de)1;
   box-shadow: 40px 0 100px #0066ff,-40px 0 100px#ff32de;
