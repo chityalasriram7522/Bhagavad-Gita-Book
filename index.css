@@ -289,7 +289,12 @@ video{
     rgba(0, 0, 0, 0)
   );
 }
-.button button{
+.footer{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.footer button{
     padding:10px;
     border-radius:5px; 
     margin-bottom:40px;
@@ -309,7 +314,7 @@ button:hover{
   color: black;
   background-color: white;
 }
-.button button::after{
+.footer button::after{
   content: "";
    border-image:linear-gradient(to bottom right ,#0066ff,#ff32de)1;
 }
